@@ -44,6 +44,22 @@ volmomentum --min-vol-ratio 2.0 --float-max 20000000 --max-results 50
 - Spot symbols that might be breaking out on volume.
 - Build a watchlist for deeper research.
 
+## FAQ
+**Do I need to install Python?**  
+No. The download is a standalone Windows exe.
+
+**Where do I put the API keys?**  
+Create a file named `.env` in the same folder as `volmomentum.exe`, paste the two lines from the Quick start section, and save.
+
+**It says “No results.” What should I do?**  
+Try lowering `--min-vol-ratio`, raising `--float-max`, or check that the market is open and your API keys are correct.
+
+**Is this free?**  
+Polygon and FMP both have free tiers. You can start free, though free plans may have rate limits.
+
+**Can I use my own float data?**  
+Yes. Use `--float-file` with a CSV in the format shown below.
+
 ## Options you might care about
 ```
 volmomentum --help
