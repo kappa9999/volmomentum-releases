@@ -7,6 +7,19 @@ Low-float volume momentum scanner. A small tool I made for fun to spot unusual v
 - Open the Releases page and download `volmomentum.exe`.
 - Put the exe anywhere on your PATH, or run it from the folder you downloaded.
 
+## Get your free API keys (2 minutes)
+This tool needs two free API keys: one from Polygon and one from Financial Modeling Prep (FMP).
+
+1) Polygon (market snapshots)
+- Go to Polygon (https://polygon.io/pricing) and click **Get started for free**.
+- Create an account and log in.
+- Open your **Dashboard** and copy your API key.
+
+2) FMP (float data)
+- Go to Financial Modeling Prep (https://site.financialmodelingprep.com/pricing-plans) and click **Get Started** on the Free plan.
+- Create an account and log in.
+- Copy your API key from your account/dashboard page.
+
 ## Quick start
 1) Create a `.env` file next to the exe (or set environment variables):
 
